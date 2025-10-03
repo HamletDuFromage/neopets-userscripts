@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Click tvw-essence Elements with Counter
 // @namespace    http://tampermonkey.net/
+// @author       HamletDuFromage
 // @version      1.1
 // @description  Click all .tvw-essence divs sequentially with a 1s delay when pressing a button, with a live counter
 // @match        https://www.neopets.com/*

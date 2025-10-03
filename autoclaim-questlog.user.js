@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Click questlog buttons with Counter
 // @namespace    http://tampermonkey.net/
+// @author       HamletDuFromage
 // @version      1.7
 // @description  Add a Neo-style "Claim Quests" section above the NeoPass quest link
 // @match        https://www.neopets.com/questlog/*
