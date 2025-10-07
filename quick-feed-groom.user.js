@@ -60,7 +60,7 @@
             $btn.on('click', async function() {
                 const objId = await findPetcareObjIdByName(petName, objName, invId);
                 if (!objId) {
-                    $btn.removeClass('button-yellow__2020').addClass('button-red__2020').text('✖ Not found: ' + objName);
+                    $btn.removeClass().addClass('button-default__2020 button-yellow__2020 btn-single__2020').text('✖ Not found: ' + objName);
                     return;
                 }
                 $.ajax({
@@ -72,7 +72,7 @@
                         petcare: 1
                     },
                     complete: function() {
-                        $btn.removeClass('button-yellow__2020').addClass('button-green__2020').text('✔ ' + objName);
+                        $btn.removeClass().addClass('button-default__2020 button-yellow__2020 btn-single__2020').text('✔ ' + objName);
                     }
                 });
             });
