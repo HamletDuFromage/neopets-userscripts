@@ -2,7 +2,7 @@
 // @name         Neopets Home: Groom & Feed Pet Button
 // @namespace    http://tampermonkey.net/
 // @author       HamletDuFromage
-// @version      1.0
+// @version      1.1
 // @description  Adds a button on the home page to POST useobject
 // @match        https://www.neopets.com/home/*
 // @grant        none
