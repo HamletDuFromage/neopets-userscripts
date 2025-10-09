@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name         Neopets TVW Rewards fast purchase
-// @namespace    https://www.neopets.com/tvw/rewards/*
-// @version      1.0
+// @namespace    http://tampermonkey.net/
+// @match        https://www.neopets.com/tvw/rewards/*
+// @version      1.1
 // @author       HamletDuFromage
 // @run-at       document-end
 // ==/UserScript==
@@ -44,7 +45,7 @@
                     }
                     confirmBtn.dataset.purchase = id;
                     PlotHub.purchasePrize(confirmBtn);
-                    count++;
+                                        count++;
                     input.placeholder = "Bought " + count;
                 }, delay);
             }
