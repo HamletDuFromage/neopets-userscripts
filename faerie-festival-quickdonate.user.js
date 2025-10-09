@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Quick donate for Neopets Faerie Festival
+// @name         Neopets Quick donate for Faerie Festival
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @match        https://www.neopets.com/faeriefestival/*
