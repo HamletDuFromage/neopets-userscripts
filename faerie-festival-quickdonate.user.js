@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Neopets Quick donate for Faerie Festival
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @match        https://www.neopets.com/faeriefestival/*
 // @grant        none
 // ==/UserScript==
@@ -93,7 +93,7 @@
 
     const newButton = document.createElement('button');
     newButton.className = existingButton.className;
-    newButton.textContent = `Donate 10 ${itemName}`;
+    newButton.textContent = `Donate 9 ${itemName}`;
 
     newButton.addEventListener('click', async () => {
         const refCK = getRefCK();
