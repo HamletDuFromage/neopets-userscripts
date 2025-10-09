@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Neopets Quick donate for Faerie Festival
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @match        https://www.neopets.com/faeriefestival/*
 // @grant        none
 // ==/UserScript==
@@ -70,7 +70,7 @@
                     button.className = 'button-default__2020 button-green__2020 faeriefestival-recycle-button';
                     button.textContent = `Prize: ${data.prizeForDayMaxDonationName}`;
                 } else {
-                    button.textContent = `Donated! Success: ${data.success}`;
+                    button.textContent = `Donated: ${data.DonatedPointsForToday} today`;
                 }
             },
             error: function(err) {
