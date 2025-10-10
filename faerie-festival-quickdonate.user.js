@@ -93,7 +93,7 @@
 
     const newButton = document.createElement('button');
     newButton.className = existingButton.className;
-    newButton.textContent = `Donate 9 ${itemName}`;
+    newButton.textContent = `Donate 9 ${itemName}s`;
 
     newButton.addEventListener('click', async () => {
         const refCK = getRefCK();
