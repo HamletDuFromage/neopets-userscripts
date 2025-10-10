@@ -70,7 +70,7 @@
                     button.className = 'button-default__2020 button-green__2020 faeriefestival-recycle-button';
                     button.textContent = `Prize: ${data.prizeForDayMaxDonationName}`;
                 } else {
-                    button.textContent = `Donated: ${data.itemsDonatedPointsForToday} today`;
+                    button.textContent = `Donated: ${data.itemsDonatedPointsForToday} points today`;
                 }
             },
             error: function(err) {
