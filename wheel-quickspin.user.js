@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Wheel Quick Spin Replace Button
+// @name        Neopets Wheel Quick Spin
 // @namespace   Violentmonkey Scripts
 // @author      HamletDuFromage
 // @match       https://www.neopets.com/medieval/knowledge.phtml
