@@ -7,7 +7,7 @@
 // @match       https://www.neopets.com/prehistoric/mediocrity.phtml
 // @match       https://www.neopets.com/halloween/wheel/index.phtml
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @description Replaces the wheel button with a quick-spin version
 // ==/UserScript==
 
@@ -34,6 +34,9 @@
 
     origBtn.parentNode.replaceChild(newBtn, origBtn);
 
+    const p = document.createElement("p");
+    newBtn.parentNode.insertBefore(p, newBtn.nextSibling);
+
     newBtn.addEventListener("click", () => {
         $.ajax({
             type: "POST",
@@ -41,9 +44,11 @@
             data: { type: type },
             success: (data) => {
                 console.log(`Wheel type ${type} result:`, data);
-                newBtn.textContent = data.name;
+                newBtn.textContent = data.name || data.success;
                 newBtn.className = "button-default__2020 button-green__2020 btn-single__2020";
                 newBtn.disabled = true;
+                p.textContent = data.prizeDescription;
+
             },
             error: (xhr, status, err) => {
                 console.error("Error sending request:", status, err);
