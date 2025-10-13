@@ -19,6 +19,7 @@
         "/faerieland/wheel.phtml": 2,
         "/prehistoric/mediocrity.phtml": 3,
         "/halloween/wheel/index.phtml": 4,
+        "/premium/wheel.phtml": 8
     };
 
     const type = wheelMap[window.location.pathname];
