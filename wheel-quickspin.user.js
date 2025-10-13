@@ -7,7 +7,7 @@
 // @match       https://www.neopets.com/prehistoric/mediocrity.phtml
 // @match       https://www.neopets.com/halloween/wheel/index.phtml
 // @grant       none
-// @version     1.2
+// @version     1.3
 // @description Replaces the wheel button with a quick-spin version
 // ==/UserScript==
 
@@ -47,7 +47,7 @@
                 newBtn.textContent = data.name || data.success;
                 newBtn.className = "button-default__2020 button-green__2020 btn-single__2020";
                 newBtn.disabled = true;
-                p.textContent = data.prizeDescription;
+                p.textContent = data.prizeDescription || "";
 
             },
             error: (xhr, status, err) => {
