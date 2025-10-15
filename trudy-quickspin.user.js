@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Skip Trudy's Wheel Button
+// @name        Neopets Skip Trudy's Wheel Button
 // @namespace   Violentmonkey Scripts
 // @author      HamletDuFromage
 // @match       https://www.neopets.com/trudys_surprise.phtml*

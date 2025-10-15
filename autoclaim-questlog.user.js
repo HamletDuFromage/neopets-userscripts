@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Click questlog buttons with Counter
+// @name         Neopets autoclaim questlog button
 // @namespace    http://tampermonkey.net/
 // @author       HamletDuFromage
-// @version      1.8
+// @version      1.9
 // @description  Add a Neo-style "Claim Quests" section above the NeoPass quest link
 // @match        https://www.neopets.com/questlog/*
 // @icon         https://www.neopets.com/favicon.ico
