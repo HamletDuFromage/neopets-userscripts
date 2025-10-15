@@ -2,7 +2,7 @@
 // @name         Click questlog buttons with Counter
 // @namespace    http://tampermonkey.net/
 // @author       HamletDuFromage
-// @version      1.7
+// @version      1.8
 // @description  Add a Neo-style "Claim Quests" section above the NeoPass quest link
 // @match        https://www.neopets.com/questlog/*
 // @icon         https://www.neopets.com/favicon.ico
@@ -45,12 +45,13 @@
         neoPassLink.parentNode.insertBefore(customBlock, neoPassLink);
 
         btn.addEventListener('click', async () => {
-            const elements = [
-                ...document.querySelectorAll('div.ql-quest-buttons button.ql-claim:not([disabled])'),
-                ...document.querySelectorAll('.ql-bonus-claim')
-            ];
-
-            for (const el of elements) {
+            while (true) {
+                const el =
+                    document.querySelector('div.ql-quest-buttons button.ql-claim:not([disabled])') ||
+                    document.querySelector('.ql-bonus-claim');
+        
+                if (!el) break;
+        
                 el.onclick();
                 await new Promise(r => setTimeout(r, 1500));
             }

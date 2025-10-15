@@ -6,6 +6,7 @@
 // @match       https://www.neopets.com/faerieland/wheel.phtml
 // @match       https://www.neopets.com/prehistoric/mediocrity.phtml
 // @match       https://www.neopets.com/halloween/wheel/index.phtml
+// @match       https://www.neopets.com/premium/wheel.phtml
 // @grant       none
 // @version     1.3
 // @description Replaces the wheel button with a quick-spin version
