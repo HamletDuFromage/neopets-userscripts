@@ -9,6 +9,7 @@
 // @match       https://www.neopets.com/premium/wheel.phtml
 // @grant       none
 // @version     1.3
+// @icon        https://www.neopets.com/favicon.ico
 // @description Replaces the wheel button with a quick-spin version
 // ==/UserScript==
 

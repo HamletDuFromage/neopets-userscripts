@@ -5,6 +5,7 @@
 // @version      1.1
 // @description  Adds a button on the home page to POST useobject
 // @match        https://www.neopets.com/home/*
+// @icon         https://www.neopets.com/favicon.ico
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==

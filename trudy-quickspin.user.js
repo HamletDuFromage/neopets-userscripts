@@ -4,7 +4,7 @@
 // @author      HamletDuFromage
 // @match       https://www.neopets.com/trudys_surprise.phtml*
 // @grant       none
-// @version     1.9
+// @version     1.10
 // ==/UserScript==
 
 (function () {

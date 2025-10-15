@@ -4,6 +4,7 @@
 // @match        https://www.neopets.com/tvw/rewards/*
 // @version      1.1
 // @author       HamletDuFromage
+// @icon         https://www.neopets.com/favicon.ico
 // @run-at       document-end
 // ==/UserScript==
 

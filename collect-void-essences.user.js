@@ -6,6 +6,7 @@
 // @description  Click all .tvw-essence divs sequentially with a 1s delay when pressing a button, with a live counter
 // @match        https://www.neopets.com/*
 // @exclude      https://www.neopets.com/questlog/*
+// @icon         https://www.neopets.com/favicon.ico
 // @grant        none
 // ==/UserScript==
 

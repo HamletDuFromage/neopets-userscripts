@@ -4,6 +4,7 @@
 // @author       HamletDuFromage
 // @version      1.0
 // @match        https://www.neopets.com/generalstore.phtml*
+// @icon         https://www.neopets.com/favicon.ico
 // @grant        none
 // ==/UserScript==
 

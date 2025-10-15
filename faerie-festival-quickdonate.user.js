@@ -3,6 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.3
 // @match        https://www.neopets.com/faeriefestival/*
+// @icon         https://www.neopets.com/favicon.ico
+// @author       HamletDuFromage
 // @grant        none
 // ==/UserScript==
 
