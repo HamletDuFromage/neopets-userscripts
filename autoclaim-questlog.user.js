@@ -2,7 +2,7 @@
 // @name         Neopets autoclaim questlog button
 // @namespace    http://tampermonkey.net/
 // @author       HamletDuFromage
-// @version      1.9
+// @version      1.10
 // @description  Add a Neo-style "Claim Quests" section above the NeoPass quest link
 // @match        https://www.neopets.com/questlog/*
 // @icon         https://www.neopets.com/favicon.ico
@@ -53,7 +53,7 @@
                 if (!el) break;
         
                 el.onclick();
-                await new Promise(r => setTimeout(r, 1500));
+                await new Promise(r => setTimeout(r, 750));
             }
         });
 
